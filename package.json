@@ -1,6 +1,6 @@
 {
   "name": "abner",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "simple hapi server for use in tests",
   "main": "index.js",
   "scripts": {
