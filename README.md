@@ -1,4 +1,4 @@
-# abner [![](https://travis-ci.org/creativelive/abner.png)](https://travis-ci.org/creativelive/abner)
+# abner [![](https://travis-ci.org/creativelive/abner.svg?branch=master)](https://travis-ci.org/creativelive/abner)
 
 Very basic hapi server for use in tests
 
