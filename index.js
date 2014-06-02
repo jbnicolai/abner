@@ -4,6 +4,7 @@ var Hapi = require('hapi');
 var clc = require('cli-color');
 var moment = require('moment');
 var _ = require('underscore');
+var ejs = require('ejs');
 var path = require('path');
 
 module.exports = function server(opts) {
@@ -22,7 +23,7 @@ module.exports = function server(opts) {
       path: opts.templates,
       engines: {
         ejs: {
-          module: 'ejs'
+          module: ejs
         }
       }
     }
