@@ -18,6 +18,9 @@ module.exports = function server(opts) {
 
   var server = new Hapi.Server(opts.hostname, opts.port, {
     cors: true,
+    debug: {
+      request: ['error']
+    },
     views: {
       isCached: false,
       path: opts.templates,
