@@ -1,6 +1,8 @@
 # abner [![](https://travis-ci.org/creativelive/abner.svg?branch=master)](https://travis-ci.org/creativelive/abner)
 
-Very basic hapi server for use in tests
+![abner](https://raw.githubusercontent.com/creativelive/abner/master/assets/abner.png)
+
+A very simple hapi server for use in tests
 
 
 ## Usage
@@ -11,5 +13,3 @@ Very basic hapi server for use in tests
 var server = require('abner')(/* opts */);
 server.start();
 ```
-
-![abner](https://raw.githubusercontent.com/creativelive/abner/master/assets/abner.png)
