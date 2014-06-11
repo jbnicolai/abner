@@ -2,6 +2,7 @@
 
 Very basic hapi server for use in tests
 
+
 ## Usage
 
 ```
@@ -10,3 +11,5 @@ Very basic hapi server for use in tests
 var server = require('abner')(/* opts */);
 server.start();
 ```
+
+![abner](https://raw.githubusercontent.com/creativelive/abner/master/assets/abner.png)
