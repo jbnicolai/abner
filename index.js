@@ -1,7 +1,7 @@
 'use strict';
 
 var Hapi = require('hapi');
-var clc = require('cli-color');
+var chalk = require('chalk');
 var moment = require('moment');
 var _ = require('underscore');
 var ejs = require('ejs');
@@ -37,7 +37,7 @@ module.exports = function server(opts) {
       if (event.data.url === '/favicon.ico') {
         return;
       }
-      console.log(clc.cyan(moment().format('YYYY-MM-DD HH:mm:ss') + ' ' + event.data.url));
+      console.log(chalk.cyan(moment().format('YYYY-MM-DD HH:mm:ss') + ' ' + event.data.url));
     }
   });
 

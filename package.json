@@ -1,6 +1,6 @@
 {
   "name": "abner",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "simple hapi server for use in tests",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,9 @@
   "dependencies": {
     "underscore": "^1.6.0",
     "hapi": "^5.1.0",
-    "cli-color": "^0.3.2",
     "ejs": "^1.0.0",
-    "moment": "^2.6.0"
+    "moment": "^2.6.0",
+    "chalk": "^0.4.0"
   },
   "devDependencies": {
     "gulp": "^3.6.2",
