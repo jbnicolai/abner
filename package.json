@@ -6,7 +6,7 @@
   "scripts": {
     "test": "./node_modules/gulp/bin/gulp.js lint && node test"
   },
-  "author": "Matthew Hadley (https://github.com/diffsky)",
+  "author": "cl-bender (https://github.com/cl-bender)",
   "license": "MIT",
   "dependencies": {
     "underscore": "^1.6.0",
